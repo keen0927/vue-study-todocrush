@@ -1,12 +1,6 @@
 <template>
   <div id="app">
     <Todos v-bind:todos="todos" />
-      <Input v-model="value" placeholder="Enter something..." style="width: 300px" />
-      <Input v-model="value1" size="large" placeholder="large size" />
-      <br>
-      <Input v-model="value2" placeholder="default size" />
-      <br>
-      <Input v-model="value3" size="small" placeholder="small size" />
   </div>
 </template>
 
